@@ -14,6 +14,7 @@ import com.devsuperior.dsmovie.services.MovieService;
 @RestController
 @RequestMapping(value = "/movies")
 public class MovieController {
+	//Controladores REST
 	
 	@Autowired
 	private MovieService service;
